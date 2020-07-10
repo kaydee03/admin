@@ -1,0 +1,576 @@
+CRITICAL - 2020-06-03 01:23:59 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dispatchers.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('dispatchers', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-03 01:24:09 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dispatchers.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('dispatchers', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-03 01:30:13 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(9): view('templates/heade...', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 09:53:32 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 09:53:53 --> syntax error, unexpected ';', expecting ':'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 10:32:50 --> syntax error, unexpected ';', expecting ':'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 10:33:15 --> Undefined variable: current_date
+#0 C:\xampp\htdocs\dev\app\Views\projectloads.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 10:35:13 --> Undefined variable: current_date
+#0 C:\xampp\htdocs\dev\app\Views\projectloads.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 10:36:22 --> Undefined variable: current_date
+#0 C:\xampp\htdocs\dev\app\Views\projectloads.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 10:36:58 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 10:37:13 --> Undefined variable: current_date
+#0 C:\xampp\htdocs\dev\app\Views\projectloads.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 10:37:56 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 10:38:19 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 10:38:42 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 10:39:15 --> Undefined variable: current_date
+#0 C:\xampp\htdocs\dev\app\Views\projectloads.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 11:28:01 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->projectloads()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 14:12:31 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(245): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:12:47 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(245): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:15:09 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(245): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:24:21 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(208): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:25:17 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(208): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:25:48 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(208): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:28:11 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(236): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:29:22 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(236): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:34:30 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(198): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:35:41 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(198): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:36:56 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(198): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:37:53 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(186): view('profile')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:37:56 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(186): view('profile')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:37:59 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(198): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:38:03 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(186): view('profile')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:38:41 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(198): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:40:29 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:43:06 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 14:46:04 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 15:13:49 --> syntax error, unexpected 'value' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 15:14:09 --> syntax error, unexpected 'value' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 15:14:38 --> syntax error, unexpected 'value' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 15:15:08 --> syntax error, unexpected 'value' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 15:15:26 --> syntax error, unexpected 'admin' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 15:44:39 --> syntax error, unexpected 'value' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 15:50:21 --> Undefined variable: Admin
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 15:50:55 --> Undefined variable: Admin
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 15:51:09 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 15:51:22 --> Undefined index: admin
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 15:52:17 --> Undefined index: admin
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 15:58:49 --> Undefined index: admin
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 20:19:20 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-03 20:19:36 --> Undefined index: admin
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 20:23:31 --> Undefined index: admin
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(244): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 20:35:22 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\profile.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(186): view('profile')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 20:38:48 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\profile.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(186): view('profile')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 20:40:56 --> Undefined index: status
+#0 C:\xampp\htdocs\dev\app\Views\profile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(138): view('profile', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 20:56:19 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Views\profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(138): view('profile', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 21:53:03 --> Class 'App\Controllers\DriverModel' not found
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\DriverInfo->driverinfo()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DriverInfo))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-03 21:53:29 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\driverinfo.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('driverinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\DriverInfo.php(16): view('driverinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\DriverInfo->driverinfo()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DriverInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 22:18:15 --> Class 'App\Controllers\DispatchersModel' not found
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\DriverInfo->store()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DriverInfo))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-03 22:20:26 --> Class 'App\Controllers\DispatchersModel' not found
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\DriverInfo->store()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DriverInfo))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-03 22:20:49 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\dev\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\dev\app\Controllers\DriverInfo.php(112): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\DriverInfo->store()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DriverInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-03 22:22:36 --> Undefined variable: total_miles
+#0 C:\xampp\htdocs\dev\app\Controllers\DriverInfo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\DriverInfo->store()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DriverInfo))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-03 22:27:53 --> Class 'App\Controllers\DispatchersModel' not found
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\DriverInfo->edit('1')
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DriverInfo))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-03 23:23:03 --> Class 'App\Controllers\DispatchersModel' not found
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Tractor->index()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tractor))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-03 23:24:00 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\tractor.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('tractor', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Tractor.php(14): view('tractor', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Tractor->index()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tractor))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-03 23:37:57 --> Class 'App\Controllers\TractorModel' not found
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Trailer->index()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trailer))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

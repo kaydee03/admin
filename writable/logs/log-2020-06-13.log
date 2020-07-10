@@ -1,0 +1,26 @@
+CRITICAL - 2020-06-13 10:14:07 --> Table 'transportation.users' doesn't exist in engine
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dev\app\Validation\UserRules.php(16): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('kyledavis', 'email,password', Array, NULL)
+#7 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'kyledavis', Array, Array)
+#8 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\dev\app\Controllers\Users.php(27): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#11 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#12 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-06-13 11:05:03 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\dev\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\dev\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\dev\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\dev\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

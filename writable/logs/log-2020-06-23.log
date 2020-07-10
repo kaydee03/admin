@@ -1,0 +1,605 @@
+CRITICAL - 2020-06-23 07:05:49 --> syntax error, unexpected ')'
+#0 C:\laragon\www\dispatch\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-06-23 07:36:33 --> Cannot use object of type App\Entities\User as array
+#0 C:\laragon\www\dispatch\system\View\View.php(246): include()
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Users.php(14): view('userslist', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 07:45:19 --> Cannot redeclare App\Models\UserModel::$returnType
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-23 07:46:01 --> Cannot use object of type App\Entities\User as array
+#0 C:\laragon\www\dispatch\system\View\View.php(246): include()
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Users.php(14): view('userslist', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 09:08:24 --> syntax error, unexpected '(array)' (array) (T_ARRAY_CAST)
+#0 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#1 C:\laragon\www\dispatch\app\Controllers\Users.php(14): view('userslist', Array)
+#2 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-23 09:08:49 --> Undefined index: id
+#0 C:\laragon\www\dispatch\app\Views\userslist.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(14): view('userslist', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 09:09:13 --> Undefined index: id
+#0 C:\laragon\www\dispatch\app\Views\userslist.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(14): view('userslist', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 09:09:24 --> Undefined index: id
+#0 C:\laragon\www\dispatch\app\Views\userslist.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(14): view('userslist', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 09:12:06 --> Undefined index: id
+#0 C:\laragon\www\dispatch\app\Views\userslist.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(17): view('userslist', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 09:15:44 --> Undefined index: id
+#0 C:\laragon\www\dispatch\app\Views\userslist.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(17): view('userslist', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 09:15:58 --> Undefined index: id
+#0 C:\laragon\www\dispatch\app\Views\userslist.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(17): view('userslist', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 09:18:05 --> Cannot use object of type App\Entities\User as array
+#0 C:\laragon\www\dispatch\system\View\View.php(246): include()
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('userslist', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Users.php(14): view('userslist', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->userslist()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 09:18:39 --> Cannot use object of type App\Entities\User as array
+#0 C:\laragon\www\dispatch\system\View\View.php(246): include()
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Users.php(191): view('edituser', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 09:27:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(215): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:32:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\system\Model.php(549): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\app\Controllers\Users.php(218): CodeIgniter\Model->save(Object(App\Entities\User))
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-23 09:32:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\system\Model.php(549): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\app\Controllers\Users.php(220): CodeIgniter\Model->save(Object(App\Entities\User))
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-23 09:33:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\system\Model.php(549): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\app\Controllers\Users.php(220): CodeIgniter\Model->save(Object(App\Entities\User))
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-23 09:33:54 --> Column count doesn't match value count at row 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\dispatch\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->save(Object(App\Entities\User))
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-23 09:35:44 --> Column count doesn't match value count at row 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\dispatch\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->save(Object(App\Entities\User))
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-23 09:40:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(219): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:40:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(223): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:42:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(226): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:44:47 --> Argument 1 passed to App\Entities\User::setUPassword() must be of the type string, null given, called in C:\laragon\www\dispatch\system\Entity.php on line 133
+#0 C:\laragon\www\dispatch\system\Entity.php(133): App\Entities\User->setUPassword(NULL)
+#1 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Entity->fill(Array)
+#2 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-23 09:45:05 --> Argument 1 passed to App\Entities\User::setUPassword() must be of the type string, null given, called in C:\laragon\www\dispatch\system\Entity.php on line 133
+#0 C:\laragon\www\dispatch\system\Entity.php(133): App\Entities\User->setUPassword(NULL)
+#1 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Entity->fill(Array)
+#2 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-23 09:45:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(226): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:45:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:46:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:47:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:47:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:47:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:51:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:52:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:52:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''
+WHERE `users`.`id` IN ('92')' at line 1
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 09:53:16 --> You must use the "set" method to update an entry.
+#0 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2415): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 09:53:35 --> You must use the "set" method to update an entry.
+#0 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2415): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 09:55:58 --> You must use the "set" method to update an entry.
+#0 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2415): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 09:57:35 --> Unknown column 'u_last_name' in 'field list'
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(221): CodeIgniter\Model->update(Array, Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateuser()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 11:18:37 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\dispatch\app\Views\edituser.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(193): view('edituser', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 11:18:49 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\dispatch\app\Views\edituser.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(193): view('edituser', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 11:32:34 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\dispatch\app\Views\edituser.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(196): view('edituser', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 11:32:53 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\dispatch\app\Views\edituser.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(196): view('edituser', Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 12:00:37 --> Undefined variable: label
+#0 C:\laragon\www\dispatch\app\Views\cmps\selectField.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 2, Array)
+#1 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('cmps/selectFiel...', Array, true)
+#3 C:\laragon\www\dispatch\app\Libraries\Form.php(17): view('cmps/selectFiel...', Array)
+#4 C:\laragon\www\dispatch\system\View\Cell.php(156): App\Libraries\Form->select(Array)
+#5 C:\laragon\www\dispatch\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Libraries\\...', Array, 0, 'AppLibrariesFor...')
+#6 C:\laragon\www\dispatch\app\Views\edituser.php(49): view_cell('\\App\\Libraries\\...', Array)
+#7 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#8 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#9 C:\laragon\www\dispatch\app\Controllers\Users.php(194): view('edituser', Array)
+#10 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#11 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#12 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-06-23 12:05:53 --> Class 'App\Models\RoleModel' not found
+#0 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Roles->index()
+#1 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#2 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 12:06:03 --> Unknown column 'id' in 'order clause'
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\dispatch\app\Controllers\Roles.php(14): CodeIgniter\Model->findAll()
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Roles->index()
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 12:06:25 --> Invalid file: roleslist.php
+#0 C:\laragon\www\dispatch\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('roleslist.php')
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('roleslist', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Roles.php(15): view('roleslist', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Roles->index()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 12:06:34 --> Invalid file: roles/roleslist.php
+#0 C:\laragon\www\dispatch\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('roles/roleslist...')
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('roles/roleslist', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Roles.php(15): view('roles/roleslist', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Roles->index()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 12:06:37 --> Invalid file: roles/roleslist.php
+#0 C:\laragon\www\dispatch\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('roles/roleslist...')
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('roles/roleslist', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Roles.php(15): view('roles/roleslist', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Roles->index()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 12:09:23 --> Invalid file: role/create.php
+#0 C:\laragon\www\dispatch\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('role/create.php')
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('role/create', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\Roles.php(20): view('role/create')
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Roles->create()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 12:38:11 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\dispatch\system\View\View.php(246): include()
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('compinfo', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\CompInfo.php(15): view('compinfo', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\CompInfo->compinfo()
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompInfo))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 12:39:11 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\dispatch\system\View\View.php(246): include()
+#1 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('editcompinfo', Array, true)
+#2 C:\laragon\www\dispatch\app\Controllers\CompInfo.php(79): view('editcompinfo', Array)
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\CompInfo->editcompinfo('1')
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompInfo))
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-23 13:15:20 --> Invalid file: userroles.php
+#0 C:\laragon\www\dispatch\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('userroles.php')
+#1 C:\laragon\www\dispatch\system\View\View.php(525): CodeIgniter\View\View->render('userroles', NULL, true)
+#2 C:\laragon\www\dispatch\app\Views\edituser.php(66): CodeIgniter\View\View->include('userroles')
+#3 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(194): view('edituser', Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 13:15:31 --> Invalid file: user/userroles.php
+#0 C:\laragon\www\dispatch\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/userroles....')
+#1 C:\laragon\www\dispatch\system\View\View.php(525): CodeIgniter\View\View->render('user/userroles', NULL, true)
+#2 C:\laragon\www\dispatch\app\Views\edituser.php(66): CodeIgniter\View\View->include('user/userroles')
+#3 C:\laragon\www\dispatch\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#5 C:\laragon\www\dispatch\app\Controllers\Users.php(194): view('edituser', Array)
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->edituser('92')
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-23 14:19:16 --> Unknown column 'updated_at' in 'field list'
+#0 C:\laragon\www\dispatch\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\dispatch\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\dispatch\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\dispatch\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\dispatch\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\dispatch\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 C:\laragon\www\dispatch\app\Controllers\Users.php(233): CodeIgniter\Model->save(Array)
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->updateroles()
+#8 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-23 14:38:46 --> Cannot use object of type App\Entities\User as array
+#0 C:\laragon\www\dispatch\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('dokimazw@gmail....', 'email,password', Array, NULL)
+#1 C:\laragon\www\dispatch\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'dokimazw@gmail....', Array, Array)
+#2 C:\laragon\www\dispatch\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\dispatch\app\Controllers\Users.php(41): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 14:39:37 --> Trying to get property 'password' of non-object
+#0 C:\laragon\www\dispatch\app\Validation\UserRules.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\dispatch\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('dokimazw@gmail....', 'email,password', Array, NULL)
+#2 C:\laragon\www\dispatch\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'dokimazw@gmail....', Array, Array)
+#3 C:\laragon\www\dispatch\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\laragon\www\dispatch\app\Controllers\Users.php(41): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-23 14:43:41 --> syntax error, unexpected '<', expecting end of file
+#0 C:\laragon\www\dispatch\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 C:\laragon\www\dispatch\app\Controllers\Dashboard.php(12): view('dashboard')
+#2 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-23 14:54:36 --> Call to undefined method App\Entities\User::getRolesNames()
+#0 C:\laragon\www\dispatch\app\Controllers\Users.php(48): App\Controllers\Users->setUserSession(Object(App\Entities\User))
+#1 C:\laragon\www\dispatch\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#2 C:\laragon\www\dispatch\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\laragon\www\dispatch\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\dispatch\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

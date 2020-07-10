@@ -1,0 +1,142 @@
+CRITICAL - 2020-05-25 18:08:35 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 18:21:46 --> Undefined property: App\Controllers\Users::$db
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 18:22:07 --> Undefined property: App\Controllers\Users::$db
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 18:26:50 --> Undefined variable: firstname
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 18:28:41 --> Unknown column 'test3' in 'where clause'
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dev\app\Controllers\Users.php(94): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-25 18:35:35 --> Undefined property: App\Controllers\Users::$db
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 18:46:22 --> Undefined property: App\Controllers\Users::$model
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 18:46:39 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-25 18:50:33 --> Undefined variable: user
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 18:53:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dev\system\Model.php(863): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 863, Array)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(96): CodeIgniter\Model->update(Array, Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-25 18:56:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dev\system\Model.php(863): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 863, Array)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(97): CodeIgniter\Model->update(Array, Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-25 18:59:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dev\system\Model.php(863): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 863, Array)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(97): CodeIgniter\Model->update(Array, Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-25 19:11:31 --> Undefined variable: firstname
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-25 19:27:46 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-25 19:28:17 --> syntax error, unexpected '$model' (T_VARIABLE)
+#0 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-25 19:28:34 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-25 19:34:11 --> syntax error, unexpected '1' (T_LNUMBER)
+#0 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-25 19:40:04 --> The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
+#0 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'The behavior of...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(365): require_once()
+#2 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 [internal function]: spl_autoload_call('App\\Controllers...')
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

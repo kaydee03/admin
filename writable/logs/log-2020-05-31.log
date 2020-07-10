@@ -1,0 +1,150 @@
+CRITICAL - 2020-05-31 01:07:13 --> Undefined index: email
+#0 C:\xampp\htdocs\dev\app\Views\edituser.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(51): view('edituser', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->edit('1')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-31 01:08:48 --> Undefined index: email
+#0 C:\xampp\htdocs\dev\app\Views\edituser.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(51): view('edituser', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->edit('1')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-31 01:11:30 --> Undefined index: email
+#0 C:\xampp\htdocs\dev\app\Views\edituser.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(51): view('edituser', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->edit('1')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-31 02:31:54 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(61): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->store()
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-31 10:49:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dev\system\Model.php(863): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 863, Array)
+#1 C:\xampp\htdocs\dev\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#2 C:\xampp\htdocs\dev\app\Controllers\Users.php(172): CodeIgniter\Model->save(Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-31 12:41:01 --> Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 12:42:33 --> Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 12:43:21 --> Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 12:50:30 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('dispatchers')
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('dispatchers')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 12:50:46 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\dev\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('dispatchers')
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('dispatchers')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 13:02:28 --> Undefined variable: firstname
+#0 C:\xampp\htdocs\dev\app\Views\dispatchers.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('dispatchers', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-31 13:02:43 --> Undefined variable: firstname
+#0 C:\xampp\htdocs\dev\app\Views\dispatchers.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('dispatchers', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-31 14:39:37 --> syntax error, unexpected ',', expecting ']'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('dispatchers', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-31 14:42:16 --> syntax error, unexpected ',', expecting ']'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('dispatchers', Array)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-31 15:59:42 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\dev\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('dispatchers')
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('dispatchers')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 16:16:13 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->store()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 16:27:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\dev\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('dispatchers/sto...')
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('dispatchers/sto...')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 16:28:30 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\dev\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('dispatchers/sto...')
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('dispatchers/sto...')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

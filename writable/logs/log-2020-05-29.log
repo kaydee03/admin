@@ -1,0 +1,224 @@
+CRITICAL - 2020-05-29 11:27:48 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-29 11:28:11 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:29:16 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:29:31 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:31:21 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:32:53 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:33:11 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:34:51 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:35:02 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:35:47 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:35:56 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('users', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 11:40:19 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\dispatchers.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(306): view('dispatchers')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 11:40:39 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\dispatchers.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dispatchers', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(306): view('dispatchers')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 11:43:56 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\test.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 12:40:56 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\test.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 12:42:33 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\test.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 12:44:07 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\test.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 12:44:21 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\test.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 12:44:40 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\test.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 12:45:12 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\test.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 12:57:07 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('projectloads.ph...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-29 13:12:01 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\test.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(329): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 13:39:33 --> Undefined variable: firstname
+#0 C:\xampp\htdocs\dev\app\Views\dashboard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(10): view('dashboard')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-29 13:41:07 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('projectloads.ph...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('projectloads', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(16): view('projectloads', Array)
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->index()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

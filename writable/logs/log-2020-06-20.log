@@ -1,0 +1,10 @@
+CRITICAL - 2020-06-20 11:08:15 --> View themes, no current section.
+#0 C:\xampp\htdocs\dev\app\Views\test.php(125): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(325): view('test')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->test()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,318 @@
+CRITICAL - 2020-06-05 00:16:17 --> Undefined variable: load_miles
+#0 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->store()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-05 00:16:59 --> Column 'load_size' cannot be null
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(118): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->store()
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-05 00:21:09 --> Column 'load_size' cannot be null
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(118): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->store()
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-05 12:28:55 --> Table 'transportation.projectloads' doesn't exist
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(13): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->dispatchboard()
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-05 13:04:37 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\editdispatchboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editdispatchboa...', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Dispatchers.php(130): view('editdispatchboa...', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dispatchers->edit('17')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispatchers))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:03:35 --> syntax error, unexpected ''activeUsers'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(135): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:03:41 --> syntax error, unexpected ''activeUsers'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(135): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:11:21 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\edituser.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('edituser', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->edit('3')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:14:42 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\edituser.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('edituser', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('edituser', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('3')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:15:40 --> Undefined variable: projectloads
+#0 C:\xampp\htdocs\dev\app\Views\editempinfo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('editempinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('3')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:17:40 --> Undefined index: status
+#0 C:\xampp\htdocs\dev\app\Views\editempinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('editempinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('3')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:18:03 --> Undefined index: status
+#0 C:\xampp\htdocs\dev\app\Views\editempinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('editempinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('2')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:24:56 --> Undefined index: username
+#0 C:\xampp\htdocs\dev\app\Views\editempinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('editempinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('2')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:25:30 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Views\editempinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('editempinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('2')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:27:13 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Views\editempinfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('editempinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('2')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 15:28:35 --> Undefined index: lnameUsers
+#0 C:\xampp\htdocs\dev\app\Views\editempinfo.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(64): view('editempinfo', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->editempinfo('2')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 16:15:02 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:17:43 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:19:21 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:20:01 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:20:46 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:21:28 --> Undefined variable: empinfo
+#0 C:\xampp\htdocs\dev\app\Views\empinfo.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('empinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('empinfo')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 16:23:59 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:25:26 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:25:33 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createempinfo.p...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 16:29:43 --> Undefined variable: empinfo
+#0 C:\xampp\htdocs\dev\app\Views\createempinfo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createempinfo', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(21): view('createempinfo')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->createempinfo()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 17:03:16 --> Column 'fname' cannot be null
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(52): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->storeempinfo()
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-05 17:04:53 --> Column 'fname' cannot be null
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\dev\app\Controllers\EmpInfo.php(52): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\EmpInfo->storeempinfo()
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpInfo))
+#8 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-05 18:13:31 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dev\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('createequipment...')
+#1 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('createequipment', Array, true)
+#2 C:\xampp\htdocs\dev\app\Controllers\Equipment.php(21): view('createequipment')
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Equipment->createequipment()
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipment))
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-05 18:35:08 --> Undefined variable: empinfo
+#0 C:\xampp\htdocs\dev\app\Views\editequipment.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editequipment', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Equipment.php(62): view('editequipment', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Equipment->editequipment('1')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipment))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 18:36:15 --> Undefined index: fname
+#0 C:\xampp\htdocs\dev\app\Views\editequipment.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('editequipment', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Equipment.php(62): view('editequipment', Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Equipment->editequipment('1')
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipment))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-05 19:04:43 --> Undefined variable: users
+#0 C:\xampp\htdocs\dev\app\Views\admin.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(392): view('admin')
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->admin()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

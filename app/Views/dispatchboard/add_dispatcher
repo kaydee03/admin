@@ -1,0 +1,1 @@
+<a href="#" onclick="toggleAddForm(event)" class="btn btn-success mb-2">Add Dispatch</a>

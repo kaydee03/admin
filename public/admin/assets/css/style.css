@@ -1,0 +1,9 @@
+.dispatchboard a.btn.btn-primary{
+  display: none!important;
+}
+.table-condensed {
+  white-space: normal;
+}
+.column-download{
+  display: flex;
+}

@@ -1,0 +1,337 @@
+CRITICAL - 2020-05-20 15:48:17 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#2 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-20 15:50:49 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 15:54:17 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:07:21 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:14:18 --> Undefined index: email
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:15:41 --> Undefined index: data
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:15:50 --> Undefined index: email
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:15:59 --> Undefined index: emailUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:18:57 --> Illegal string offset 'usernameUsers'
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:22:05 --> Argument 1 passed to App\Validation\UserRules::validateUser() must be of the type array, string given, called in C:\xampp\htdocs\dev\system\Validation\Validation.php on line 294
+#0 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#2 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-20 16:22:31 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:44:46 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:48:29 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:54:36 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'username,passwo...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:54:54 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:55:06 --> Undefined index: usernameUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:55:23 --> Unknown column 'username' in 'where clause'
+#0 C:\xampp\htdocs\dev\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dev\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dev\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dev\app\Validation\UserRules.php(23): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'usernameUsers,p...', Array, NULL)
+#7 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#8 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#11 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#12 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-05-20 16:55:33 --> Use of undefined constant user - assumed 'user' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test8', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test8', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 16:56:07 --> Undefined variable: newData
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-20 17:00:42 --> Undefined variable: newData
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-20 17:10:14 --> Undefined index: pwdUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 17:10:41 --> Undefined index: password
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 17:11:08 --> Undefined index: pwdUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 17:13:00 --> Undefined index: pwdUsers
+#0 C:\xampp\htdocs\dev\app\Validation\UserRules.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\dev\system\Validation\Validation.php(294): App\Validation\UserRules->validateUser('test', 'usernameUsers,p...', Array, NULL)
+#2 C:\xampp\htdocs\dev\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'test', Array, Array)
+#3 C:\xampp\htdocs\dev\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#4 C:\xampp\htdocs\dev\app\Controllers\Users.php(32): CodeIgniter\Controller->validate(Array, Array)
+#5 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 23:33:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(41): App\Controllers\Users->setUserSession(NULL)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:35:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(41): App\Controllers\Users->setUserSession(NULL)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:35:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dev\app\Controllers\Users.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\dev\app\Controllers\Users.php(41): App\Controllers\Users->setUserSession(NULL)
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:42:18 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#1 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-20 23:46:55 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(10): view('dashboard')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:48:11 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(10): view('dashboard')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:48:20 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(10): view('dashboard')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:50:22 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(10): view('dashboard')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:50:37 --> syntax error, unexpected '?'
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(10): view('dashboard')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-20 23:51:42 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\dev\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 C:\xampp\htdocs\dev\app\Controllers\Dashboard.php(10): view('dashboard')
+#2 C:\xampp\htdocs\dev\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#3 C:\xampp\htdocs\dev\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\dev\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

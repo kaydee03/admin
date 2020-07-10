@@ -1,0 +1,16 @@
+CRITICAL - 2020-07-03 04:07:06 --> in_array() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', '/home/alexdevg/...', 4, Array)
+#1 /home/alexdevg/kyle.alexdev.gr/app/Helpers/auth_helper.php(4): in_array(2, NULL)
+#2 /home/alexdevg/kyle.alexdev.gr/app/Views/cmps/nav.php(154): in_group(2)
+#3 /home/alexdevg/kyle.alexdev.gr/system/View/View.php(246): include('/home/alexdevg/...')
+#4 /home/alexdevg/kyle.alexdev.gr/system/View/View.php(525): CodeIgniter\View\View->render('cmps/nav', NULL, true)
+#5 /home/alexdevg/kyle.alexdev.gr/app/Views/layouts/admin_layout.php(194): CodeIgniter\View\View->include('cmps/nav')
+#6 /home/alexdevg/kyle.alexdev.gr/system/View/View.php(246): include('/home/alexdevg/...')
+#7 /home/alexdevg/kyle.alexdev.gr/system/View/View.php(257): CodeIgniter\View\View->render('layouts/admin_l...', Array, true)
+#8 /home/alexdevg/kyle.alexdev.gr/system/Common.php(1087): CodeIgniter\View\View->render('userlist/table', Array, true)
+#9 /home/alexdevg/kyle.alexdev.gr/app/Controllers/Users.php(75): view('userlist/table', Array)
+#10 /home/alexdevg/kyle.alexdev.gr/system/CodeIgniter.php(914): App\Controllers\Users->index()
+#11 /home/alexdevg/kyle.alexdev.gr/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#12 /home/alexdevg/kyle.alexdev.gr/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/alexdevg/kyle.alexdev.gr/public/index.php(47): CodeIgniter\CodeIgniter->run()
+#14 {main}

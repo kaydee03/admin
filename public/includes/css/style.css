@@ -1,0 +1,108 @@
+body.login {
+    background: #505155;
+}
+
+.fontsize12{
+  font-size: 12px;
+}
+
+.form-login {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+/* #addFormWrapper table{
+  min-height: 450px;
+} */
+.inline-head th{
+  display: inline-block;
+}
+.dataTables_wrapper {
+    width: 100%;
+}
+h1.login-title {
+    color: #505155;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    color: #505155;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #0e75ca;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link-login {
+  color: #505155;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.link-login a {
+  color: #505155;
+}
+h3-login {
+  font-weight: normal;
+  text-align: center;
+}
+.errormessage-login {
+  color: #ff0000;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+table, th, td {
+border: 1px solid black;
+}
+
+.form-wrapper{
+  border-radius: 7px;
+}
+.form-wrapper label{
+  font-weight: bold;
+}
+.errors li{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+.errors ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+/* .dropdown:hover>.dropdown-menu {
+  display: block;
+} */
+
+@media (max-width: 768px){
+  .form-wrapper .text-right{
+    text-align: center !important;
+  }
+
+  .form-wrapper .btn-primary{
+    display: block;
+    margin: 0 auto;
+  }
+}
